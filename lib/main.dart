@@ -1,3 +1,4 @@
+import 'package:firebase_storage1/mainPage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: MyHomePage(),
+      home: Mainpage(),
     );
   }
 }
